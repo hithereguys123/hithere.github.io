@@ -10,7 +10,10 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background: #1a1a1a; /* Solid dark background */
+            background-image: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Cool gaming background */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             color: white;
         }
         h1 {
@@ -42,7 +45,6 @@
             height: 300px;
             border: none;
             border-radius: 10px;
-            loading: lazy; /* Lazy load iframes */
         }
 
         /* Full-Screen Button Styles */
@@ -218,32 +220,32 @@
     <div class="game-container">
         <div class="game">
             <h2>Google Dino</h2>
-            <iframe id="game1" src="https://chromedino.com/m/" title="Google Dino" loading="lazy"></iframe>
+            <iframe id="game1" src="https://wayou.github.io/t-rex-runner/" title="Google Dino"></iframe>
             <button onclick="toggleFullScreen('game1')"><p>Full Screen</p></button>
         </div>
         <div class="game">
             <h2>1v1.LOL</h2>
-            <iframe id="game2" src="https://1v1.lol/" title="1v1 LOL" loading="lazy"></iframe>
+            <iframe id="game2" src="https://1v1-lol.github.io/" title="1v1 LOL"></iframe>
             <button onclick="toggleFullScreen('game2')"><p>Full Screen</p></button>
         </div>
         <div class="game">
             <h2>Super Mario</h2>
-            <iframe id="game3" src="https://supermarioemulator.com/mario.php" title="Super Mario" loading="lazy"></iframe>
+            <iframe id="game3" src="https://supermarioemulator.com/mario.php" title="Super Mario"></iframe>
             <button onclick="toggleFullScreen('game3')"><p>Full Screen</p></button>
         </div>
         <div class="game">
             <h2>Slow Roads</h2>
-            <iframe id="game4" src="https://slowroads.io/" title="Slow Roads" loading="lazy"></iframe>
+            <iframe id="game4" src="https://slowroads.io/" title="Slow Roads"></iframe>
             <button onclick="toggleFullScreen('game4')"><p>Full Screen</p></button>
         </div>
         <div class="game">
             <h2>Krunker.io</h2>
-            <iframe id="game5" src="https://krunker.io/" title="Krunker.io" loading="lazy"></iframe>
+            <iframe id="game5" src="https://krunker.io/" title="Krunker.io"></iframe>
             <button onclick="toggleFullScreen('game5')"><p>Full Screen</p></button>
         </div>
         <div class="game">
             <h2>Super Star Car</h2>
-            <iframe id="game6" src="https://www.crazygames.com/embed/super-star-car" title="Super Star Car" allow="gamepad *;" loading="lazy"></iframe>
+            <iframe id="game6" src="https://www.crazygames.com/embed/super-star-car" title="Super Star Car" allow="gamepad *;"></iframe>
             <button onclick="toggleFullScreen('game6')"><p>Full Screen</p></button>
         </div>
     </div>
