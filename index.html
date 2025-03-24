@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unblocked Games</title>
     <style>
-         body {
+        body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
@@ -15,23 +15,11 @@
             background-position: center;
             background-attachment: fixed;
             color: white;
-         }
-
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            color: white;
-            position: relative;
-            /* Removed overflow: hidden; to enable scrolling */
         }
         h1 {
             font-size: 3rem;
             margin: 20px 0;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-            position: relative;
-            z-index: 1;
         }
         .game-container {
             display: flex;
@@ -39,8 +27,6 @@
             flex-wrap: wrap;
             gap: 20px;
             padding: 20px;
-            position: relative;
-            z-index: 1;
         }
         .game {
             background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
@@ -230,14 +216,6 @@
     </style>
 </head>
 <body>
-    <!-- From Uiverse.io by SelfMadeSystem -->
-    <div class="container"></div>
-
-    <!-- From Uiverse.io by andrew-demchenk0 -->
-    <div class="loader">
-        <div data-glitch="Loading..." class="glitch">Loading...</div>
-    </div>
-
     <h1>Welcome to Unblocked Games</h1>
     <div class="game-container">
         <div class="game">
@@ -286,14 +264,6 @@
                 element.msRequestFullscreen();
             }
         }
-
-        // Show loading screen on page load
-        window.addEventListener('load', () => {
-            const loader = document.querySelector('.loader');
-            setTimeout(() => {
-                loader.style.display = 'none';
-            }, 2000); // Hide after 2 seconds
-        });
     </script>
 </body>
 </html>
